@@ -1,0 +1,183 @@
+2022-09-30 18:18:29 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-09-30 18:18:29 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.60 ----------
+
+2022-09-30 18:18:29 INFO  ProjectStartupHandler.setAutoscrolls(346) - Autoscrolls successfully set
+2022-09-30 18:18:29 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(589) - The session is not set in the property file.
+2022-09-30 18:18:29 INFO  ApacheHttpClient.login(250) - Waiting for server response.
+2022-09-30 18:18:29 INFO  ApacheHttpClient.login(254) - responseCode = 200
+2022-09-30 18:18:29 INFO  ApacheHttpClient.login(277) - JSESSIONID OK
+2022-09-30 18:18:29 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-09-30 18:18:29 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-09-30 18:18:29 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-09-30 18:18:35 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-30 18:18:36 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-09-30 18:18:58 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-09-30 18:19:00 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-09-30 18:19:00 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/plugin/JavaRushTasks/1.JavaSyntax/src/com
+2022-09-30 18:19:00 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/plugin/JavaRushTasks/1.JavaSyntax/src/com/javarush
+2022-09-30 18:19:00 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/plugin/JavaRushTasks/1.JavaSyntax/src/com/javarush/task
+2022-09-30 18:19:00 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/plugin/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/jdk13
+2022-09-30 18:19:00 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/plugin/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/jdk13/task07
+2022-09-30 18:19:00 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/plugin/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/jdk13/task07/task0702
+2022-09-30 18:19:55 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-09-30 18:19:55 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-30 18:19:55 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-09-30 18:20:25 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-30 18:20:29 ERROR PluginUtil.getUserPropertyFromProjectByKey(359) - Error while using a key to get a property from properties file.
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at com.homework.plugin.PluginUtil.getProjectRootVF(PluginUtil.java:938)
+	at com.homework.plugin.PluginUtil.getPluginPropertiesFile(PluginUtil.java:949)
+	at com.homework.plugin.PluginUtil.getUserPropertyFromProjectByKey(PluginUtil.java:337)
+	at com.homework.plugin.PluginUtil.getSession(PluginUtil.java:875)
+	at com.homework.plugin.PluginUtil.downloadHomeWorkTasks(PluginUtil.java:434)
+	at com.homework.plugin.PluginUtil.isProjectIncorrect(PluginUtil.java:413)
+	at com.homework.plugin.button.AbstractButton.performCheck(AbstractButton.java:37)
+	at com.homework.plugin.button.SelectTaskButton.actionPerformed(SelectTaskButton.java:27)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:190)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.lambda$performAction$0(ActionButton.java:166)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performDumbAwareWithCallbacks(ActionUtil.java:337)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:166)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:465)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6413)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5022)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2802)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:730)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:754)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:752)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:751)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:918)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.java:840)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:763)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:450)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:791)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:449)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:113)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:624)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:447)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:881)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:493)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2022-09-30 18:20:29 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-30 18:20:32 INFO  PluginProjectService.<init>(33) - PluginProjectService for JavaRushTasks initiated.
+2022-09-30 18:20:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-30 18:20:33 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-09-30 18:20:33 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-09-30 18:20:33 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.60 ----------
+
+2022-09-30 18:20:33 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.60 ----------
+
+2022-09-30 18:20:33 INFO  ProjectStartupHandler.setAutoscrolls(346) - Autoscrolls successfully set
+2022-09-30 18:20:33 INFO  ProjectStartupHandler.setAutoscrolls(346) - Autoscrolls successfully set
+2022-09-30 18:20:33 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-09-30 18:20:33 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-09-30 18:20:33 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-09-30 18:20:33 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-09-30 18:20:33 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-09-30 18:20:33 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-09-30 18:20:33 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-09-30 18:20:33 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-09-30 18:22:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-30 18:22:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-30 18:22:20 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-09-30 18:22:20 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-09-30 18:22:22 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-09-30 18:22:22 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-10-03 13:11:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-10-03 13:11:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-10-03 13:11:55 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-10-03 13:11:55 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-10-03 13:12:10 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-10-03 13:12:10 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-10-03 13:13:03 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-10-03 13:13:03 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-10-03 13:13:03 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-10-03 13:13:03 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-10-03 13:13:04 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-10-03 13:13:04 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-10-03 13:13:49 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-10-03 13:13:49 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.60 ----------
+
+2022-10-03 13:13:49 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-10-03 13:13:50 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-10-03 13:13:50 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-10-03 13:13:50 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-10-03 13:14:29 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-10-03 13:14:29 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-10-03 13:14:52 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-10-03 13:14:52 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/plugin/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/jdk13/task07/task0704
+2022-10-03 13:41:52 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-10-03 13:41:52 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-10-03 13:41:53 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-10-03 13:41:54 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-10-03 13:44:47 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-10-03 13:44:47 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-10-03 13:44:50 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-10-03 13:44:50 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/plugin/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/jdk13/task07/task0705
+2022-10-03 15:23:43 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-10-03 15:23:43 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-10-03 15:23:43 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-10-03 15:23:44 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-10-05 12:57:04 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-10-05 12:57:04 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.60 ----------
+
+2022-10-05 12:57:04 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-10-05 12:57:04 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-10-05 12:57:04 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-10-05 12:57:04 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-10-05 13:08:21 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-10-05 13:08:21 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-10-05 13:08:25 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-10-05 13:08:25 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/plugin/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/jdk13/task07/task0706
+2022-10-05 16:01:43 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-10-05 16:01:43 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-10-05 16:01:47 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-10-05 17:06:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-10-05 17:06:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-10-05 17:06:20 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-10-05 17:10:49 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-10-05 17:10:49 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-10-05 17:10:50 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-10-05 17:10:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-10-06 19:56:42 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-10-06 19:56:42 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.60 ----------
+
+2022-10-06 19:56:42 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-10-06 19:56:42 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-10-06 19:56:42 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-10-06 19:56:42 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-10-06 19:57:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-10-06 19:57:05 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-10-06 19:57:08 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-10-06 19:57:09 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/plugin/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/jdk13/task07/task0703
+2022-10-07 20:50:12 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-10-07 20:50:12 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.60 ----------
+
+2022-10-07 20:50:12 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-10-07 20:50:12 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-10-07 20:50:12 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-10-07 20:50:12 INFO  ApacheHttpClient.startGA(36) - GAService started.
